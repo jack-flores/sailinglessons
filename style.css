@@ -8,34 +8,51 @@
  @media screen and (min-width: 801px) {
       .navbar {
         /* font-size: 80px; */
-        height: 50px;
+        height: 70px;
       }
       
       .navbar a {
-          line-height: 50px;
-          font-size: 20px;
+          line-height: 70px;
+          font-size: 25px;
       }
       
       .navbar a.logo {
-          line-height: 50px;
-          font-size: 30px;
+          line-height: 70px;
+          font-size: 25px;
       }
+      
+      .foot {
+          height: 40px;
+      }
+      
+      .foot p {
+          font-size: 10px;
+      }
+      
   }   
     
- /* make navbar more responsive */
+ /* make navbar and footer more responsive */
   @media screen and (max-width: 800px) {
       .navbar {
-        height: 8vw;
+        height: 14vw;
       }
       
       .navbar a {
-          line-height: 8vw;
-          font-size: 3vw;
+          line-height: 14vw;
+          font-size: 4vw;
       }
       
       .navbar a.logo {
-          line-height: 8vw;
-          font-size: 4vw;
+          line-height: 14vw;
+          font-size: 5vw;
+      }
+      
+      .foot {
+          height: 8vw;
+      }
+      
+      .foot p {
+          font-size: 2vw;
       }
   }
   
@@ -80,6 +97,16 @@
      
  }
  
+.foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    
+}
 
+.foot p {
+    color: grey;
+}
  
  
